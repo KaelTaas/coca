@@ -1,7 +1,6 @@
 // import globals from "globals";
 // import pluginJs from "@eslint/js";
 
-
 // export default [
 //   {languageOptions: { globals: globals.browser }},
 //   pluginJs.configs.recommended,
@@ -25,7 +24,8 @@ export default [
       },
     },
     rules: {
-      'prettier/prettier': 'error',
+      // 'prettier/prettier': 'error',
+      "prettier/prettier": ["error", { "endOfLine": "auto" }],
     },
   },
   pluginJs.configs.recommended,
