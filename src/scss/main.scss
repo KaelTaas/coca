@@ -1,0 +1,7 @@
+@import './mixins';
+
+
+
+header {
+    @include flex-justify-center;
+}
