@@ -1,6 +1,6 @@
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import injectHTML from 'vite-plugin-html-inject';
-import { ViteMinifyPlugin } from 'vite-plugin-minify'
+import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import { defineConfig } from 'vite';
 
 export default defineConfig({

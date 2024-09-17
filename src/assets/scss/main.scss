@@ -2,8 +2,6 @@
 @import './base';
 @import './globals';
 
+// components
+@import './components/header';
 
-
-header {
-    @include flex-justify-center;
-}
