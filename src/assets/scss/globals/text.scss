@@ -112,7 +112,7 @@
         background-color: var(--neutral-color-100);
         transform: translateY(-43px);
 
-        @include small-descktop {
+        @include small-desktop {
           display: none;
         }
       }

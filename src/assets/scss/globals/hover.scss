@@ -1,0 +1,11 @@
+@media (hover: hover) {
+  .button-form:hover {
+    opacity: 0.9;
+  }
+}
+
+@media (hover: none) {
+  .button-form:active {
+    opacity: 0.9;
+  }
+}
