@@ -1,13 +1,18 @@
 .hero {
   position: relative;
+  margin-bottom: 135px;
   padding-top: 87px;
 
   @include mini-desktop {
     padding: 77px 0 121px;
   }
 
+  @include tablet {
+    margin-bottom: 0;
+  }
+
   @include mobile {
-    min-height: calc(100dvh - 120px);
+    min-height: calc(40dvh - 120px);
   }
 
   &::before {
@@ -258,7 +263,7 @@
     }
 
     &-body {
-      &-th {
+      &-td {
         font-weight: 700;
         font-size: 20px;
         line-height: 26px;
