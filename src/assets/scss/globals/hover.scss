@@ -1,11 +1,17 @@
 @media (hover: hover) {
   .button-form:hover {
+    // border-color: var(--neutral-color-100);
+    // color: var(--neutral-color-100);
+    // background: transparent;
     opacity: 0.9;
   }
 }
 
 @media (hover: none) {
   .button-form:active {
+    // border-color: var(--neutral-color-100);
+    // color: var(--neutral-color-100);
+    // background: transparent;
     opacity: 0.9;
   }
 }
