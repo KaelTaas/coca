@@ -9,3 +9,23 @@
     opacity: 0.9;
   }
 }
+
+@media (hover: hover) {
+  /* stylelint-disable-next-line selector-class-pattern */
+  .testimonials__btn:hover {
+    border-color: var(--neutral-color-100);
+    background: var(--neutral-color-100);
+
+    & svg path {
+      fill: var(--neutral-color-10);
+    }
+  }
+}
+
+@media (hover: none) {
+  /* stylelint-disable-next-line selector-class-pattern */
+  .testimonials__btn:active {
+    border-color: var(--neutral-color-100);
+    background: var(--neutral-color-100);
+  }
+}
