@@ -20,6 +20,7 @@ export default defineConfig({
         pricing: './src/pricing.html',
         contact: './src/contact.html',
         perform: './src/perform.html',
+        about: './src/about.html',
       },
     },
   },
