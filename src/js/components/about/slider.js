@@ -25,3 +25,27 @@ export const useAboutSlider = () => {
     },
   });
 };
+
+export const useTeamSlider = () => {
+  new Swiper('.team__slider', {
+    modules: [Pagination],
+    slidesPerView: '1.15',
+    spaceBetween: '32',
+    loop: true,
+    centeredSlides: false,
+    pagination: {
+      el: '.team__pagination',
+      type: 'fraction',
+    },
+    breakpoints: {
+      993: {
+        slidesPerView: '3',
+        centeredSlides: true,
+      },
+      577: {
+        slidesPerView: '2',
+        centeredSlides: false,
+      },
+    },
+  });
+};
