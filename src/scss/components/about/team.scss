@@ -128,18 +128,22 @@
   }
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .team__article.swiper-slide img {
   height: 434px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .team__article.swiper-slide-active img {
   height: 434px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .team__article.swiper-slide:nth-child(3) img {
   height: 434px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .team__article.swiper-slide:nth-child(4) img {
   height: 434px;
 }

@@ -5,6 +5,57 @@
     margin-bottom: 80px;
   }
 
+  &::before {
+    content: '';
+    position: absolute;
+    top: 27px;
+    left: 74px;
+    z-index: -1;
+    display: inline-block;
+    border-radius: 50%;
+    width: 551px;
+    height: 551px;
+    background: #fa7515;
+    opacity: 0.2;
+    filter: blur(220px);
+
+    @include mini-desktop {
+      left: 80px;
+      width: 351px;
+      height: 351px;
+    }
+
+    @include small-tablet {
+      left: 40px;
+      width: 251px;
+      height: 251px;
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 1725px;
+    z-index: -1;
+    display: inline-block;
+    border-radius: 50%;
+    width: 525px;
+    height: 525px;
+    background: var(--succses-color-70);
+    filter: blur(180px);
+
+    @include mini-desktop {
+      width: 325px;
+      height: 325px;
+    }
+
+    @include small-tablet {
+      width: 225px;
+      height: 225px;
+    }
+  }
+
   &__container {
     @include flex-all-between;
     gap: 15px;

@@ -21,6 +21,7 @@ export default defineConfig({
         contact: './src/contact.html',
         perform: './src/perform.html',
         about: './src/about.html',
+        activity: './src/activity.html',
       },
     },
   },
