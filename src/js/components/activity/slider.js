@@ -1,6 +1,6 @@
 import Swiper from 'swiper';
 import 'swiper/css';
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 export const useHeroActivitySlider = () => {
   new Swiper('.hero-activity__slider', {
@@ -26,15 +26,24 @@ export const useHeroActivitySlider = () => {
   });
 };
 
-export const useTestimonialsSlider = () => {
-  new Swiper('.testimonials__slider', {
+export const useArticlesSlider = () => {
+  new Swiper('.articles__slider', {
     modules: [Navigation],
-    slidesPerView: 1,
-    spaceBetween: '22',
+    slidesPerView: 1.15,
+    spaceBetween: '15',
     loop: true,
     navigation: {
-      nextEl: '.testimonials__btn--next',
-      prevEl: '.testimonials__btn--prev',
+      nextEl: '.articles__btn--next',
+      prevEl: '.articles__btn--prev',
+    },
+    breakpoints: {
+      769: {
+        slidesPerView: '2.5',
+        spaceBetween: '32',
+      },
+      577: {
+        slidesPerView: '1.5',
+      },
     },
   });
 };

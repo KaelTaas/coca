@@ -4,8 +4,8 @@ import '/scss/activity.scss';
 import './components/theme.js';
 import { useBurger } from './components/burger.js';
 import { useHeroActivitySlider } from './components/activity/slider.js';
-import { useTeamSlider } from './components/about/slider.js';
+import { useArticlesSlider } from './components/activity/slider.js';
 
 useBurger();
 useHeroActivitySlider();
-useTeamSlider();
+useArticlesSlider();
